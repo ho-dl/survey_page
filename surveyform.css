@@ -1,0 +1,114 @@
+#container{
+    display: flex;
+    background-color: aqua;
+    text-align: center;
+}
+#div1{
+    width: 50%;
+    height: 90px;
+    background-color: rgb(3, 12, 12);
+}
+body{
+    background-color: rgb(107, 194, 187);
+    margin: 70px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 40px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 40px; /* Should be removed. Only for demonstration */
+  }
+  .checkbox {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 60px; /* Should be removed. Only for demonstration */
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#name{
+    margin-left: 30px;
+}
+.columncheck {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 80px; /* Should be removed. Only for demonstration */
+  }
+  .columncheck2 {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 80px; /* Should be removed. Only for demonstration */
+    }
+    .columncheck3 {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 80px; /* Should be removed. Only for demonstration */
+      }
+      .columncheck4 {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 100px; /* Should be removed. Only for demonstration */
+        }
+
+        #mainbox{
+            background-color: rgb(255, 255, 255);
+            height: 550px;
+            width: 100%;
+            padding-top: 10px;
+            border-radius: 10px;
+            
+        }
+
+        .namecol {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 50px; /* Should be removed. Only for demonstration */
+          }
+          .namecol2 {
+              float: left;
+              width: 50%;
+              padding: 10px;
+              height: 50px; /* Should be removed. Only for demonstration */
+            }
+
+
+/* box_stylings */
+
+
+
+            #input{
+                width: 200px;
+                border-radius: 3px;
+                border-width: 1.5px;
+                height: 30px;
+                border-color: rgb(192, 196, 196);
+            }
+            #country{
+                width: 120px;
+                height: 40px;
+            }
+            #checkbx{
+                border-radius: 8px;
+            }
